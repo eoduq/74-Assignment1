@@ -3,6 +3,7 @@
 #include "handlError.h"
 void Call_GetNativeSystemInfo(SYSTEM_INFO* SystemInfo) {
 	::GetNativeSystemInfo(SystemInfo);
+	wprintf(L"GetNativeSystemInfo() successed\n");
 	if (SystemInfo->wProcessorArchitecture == PROCESSOR_ARCHITECTURE_AMD64) {
 		//return 9
 		wprintf(L"x64 (AMD or Intel)\n");

@@ -36,6 +36,9 @@
     <ClCompile Include="handlError.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Print_SharedUserData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -45,6 +48,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="handlError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Print_SharedUserData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

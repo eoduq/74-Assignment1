@@ -133,10 +133,12 @@
     <ClCompile Include="Call_GetNativeSystemInfo.cpp" />
     <ClCompile Include="Call_GetProductInfo.cpp" />
     <ClCompile Include="Call_GetWindowsDirectory.cpp" />
+    <ClCompile Include="Print_SharedUserData.cpp" />
     <ClCompile Include="handlError.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Print_SharedUserData.h" />
     <ClInclude Include="Call_SystemInfo_APIs.h" />
     <ClInclude Include="handlError.h" />
     <ClInclude Include="stdafx.h" />
